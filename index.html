@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="checkValidateEmail.js"></script>
+</head>
+<body>
+
+<script>
+    let email = "a@gmail.com";
+    alert(checkValidateEmail(email));
+    email = "ab@yahoo.com";
+    alert(checkValidateEmail(email));
+
+    email = "@yahoo.com";
+    alert(checkValidateEmail(email));
+    email = "1@#abc@gmail.com";
+    alert(checkValidateEmail(email));
+</script>
+
+</body>
+</html>
